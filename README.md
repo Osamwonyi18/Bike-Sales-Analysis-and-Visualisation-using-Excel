@@ -7,19 +7,15 @@ This project analyzes a retail dataset containing **bike sales data**, aiming to
 ## 📝 Business Questions Answered
 
 1️⃣ **In which markets does Germany have customers?**  
-2️⃣ **Which country has sales in all markets?**  
+2️⃣ **Which country has sales in all markets age group?**  
 3️⃣ **What are the most profitable markets by country, age group, and gender?**  
 
 ---
 
 ## 🛠️ Tools & Techniques Used  
 
-- **Microsoft Excel** 💻  
-- **Key Excel Functions**:  
-  - `SUM()`, `AVERAGE()`, `VLOOKUP()`, `SUMIF()`, `SUMIFS()`  
-  - **Cell Referencing** (Absolute & Relative) 📍  
-- **Pivot Tables & Charts** 📊📈  
-- **Slicers** for interactive filtering 🔪  
+- **Microsoft Excel** 💻    
+- **Pivot Tables & Charts** 📊📈 
 
 ---
 
@@ -36,14 +32,15 @@ Using **Pivot Tables**, I filtered the dataset to identify the **markets where G
 
 ---
 
-### 2️⃣ Countries with Sales in All Markets 🌎  
-By using `SUMIFS()` and **Pivot Tables**, I determined which country has made sales across **all markets**.  
+### 2️⃣ Countries with Sales Across All Age Groups 🌎  
+By using **Pivot Tables**, I determined which countries made sales across **all age group**.  
 
 ✅ **Key Finding**:  
-- The country with sales in **all markets** is **(Country Name)**.  
+- The countries with sales in **every age group** are **(Australia and the United kingdom)**.  
 
 📸 **Visualization**:  
-![Country with Sales in All Markets](link_to_your_image_here)  
+![Final Pivot table](https://github.com/user-attachments/assets/269f423b-64b4-499e-b349-8a01d3241cb3)
+
 
 ---
 
@@ -51,12 +48,14 @@ By using `SUMIFS()` and **Pivot Tables**, I determined which country has made sa
 Using **Pivot Charts**, I visualized profitability trends across **countries, age groups, and genders**.  
 
 ✅ **Findings**:  
-- **Most profitable country**: 🏆 **(Country Name)**  
-- **Most profitable age group**: 📊 **(Age Group)**  
-- **Most profitable gender**: 🚻 **(Male/Female)**  
+- **Most profitable country**: 🏆 **(United States)**  
+- **Most profitable age group**: 📊 **(Adults 35-64)**  
+- **Most profitable gender**: 🚻 **(Male)**  
 
 📸 **Visualization**:  
-![Most Profitable Markets](link_to_your_image_here)  
+
+![Profitability](https://github.com/user-attachments/assets/091357b7-77ef-442c-800e-fc75a005ce7f)
+  
 
 ---
 
