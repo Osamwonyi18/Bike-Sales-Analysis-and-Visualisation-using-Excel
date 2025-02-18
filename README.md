@@ -22,10 +22,10 @@ This project analyzes a retail dataset containing **bike sales data**, aiming to
 ## 🔍 Data Analysis Steps  
 
 ### 1️⃣ Germany’s Market Presence 🌍  
-Using **Pivot Tables**, I filtered the dataset to identify the **markets where Germany has customers**.  
+Using **Pivot Tables**, I filtered the dataset to identify the **Age categories where Germany has customers**.  
 
-✅ **Key Insight**: Germany has customers in the following markets:  
-🔹 **(List the markets here based on your analysis)**  
+✅ **Key Insight**: Germany has customers in the following Age groups:  
+🔹 **(Germany's market presence is limited to the Adult age group (35-64))**  
 
 📸 **Visualization**:  
 ![Germany Market Customers](link_to_your_image_here)  
@@ -65,3 +65,13 @@ Using **Pivot Charts**, I visualized profitability trends across **countries, ag
 2️⃣ **Open it in Microsoft Excel**.  
 3️⃣ Navigate to **Pivot Tables and Charts** to explore insights interactively.  
 4️⃣ Use **Slicers** to filter data dynamically.  
+
+## ⚠️ Challenges Faced & Solutions  
+
+### 1️⃣ Duplicate Country Entries in Pivot Table  
+**Issue:** When creating the Pivot Table, "United States" appeared **three times** instead of once.  
+
+**Cause:** This happened due to **inconsistent spacing** in the dataset, where extra spaces were present in some entries of the "Country" column.  
+
+**Solution:** I resolved this by applying the `TRIM()` function to the **Country Name** column, which removed any leading or trailing spaces. After refreshing the Pivot Table, "United States" appeared correctly as a single entry.  
+
