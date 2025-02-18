@@ -6,7 +6,7 @@ This project analyzes a retail dataset containing **bike sales data**, aiming to
 
 ## 📝 Business Questions Answered
 
-1️⃣ **In which markets does Germany have customers?**  
+1️⃣ **Analise and Visualise country sales in every Age_group**  
 2️⃣ **Which country has sales in all markets age group?**  
 3️⃣ **What are the most profitable markets by country, age group, and gender?**  
 
@@ -21,14 +21,17 @@ This project analyzes a retail dataset containing **bike sales data**, aiming to
 
 ## 🔍 Data Analysis Steps  
 
-### 1️⃣ Germany’s Market Presence 🌍  
-Using **Pivot Tables**, I filtered the dataset to identify the **Age categories where Germany has customers**.  
+### 1️⃣ Country sales by Age_group 🌍  
+Using **Pivot Tables**, I sliced the dataset to identify **Country sales by Age_group**.  
 
-✅ **Key Insight**: Germany has customers in the following Age groups:  
-🔹 **(Germany's market presence is limited to the Adult age group (35-64))**  
+✅ **Key Insight**: 
+🔹 **(Germany shows no sales in any age group outside of Adults (35-64))** 
+🔹 **(Canada has no sales in any age group other than Young Adults (25-34)**
 
 📸 **Visualization**:  
-![Germany Market Customers](link_to_your_image_here)  
+![image](https://github.com/user-attachments/assets/139d5511-a34f-418e-8129-821abd55063f)
+
+
 
 ---
 
@@ -53,7 +56,6 @@ Using **Pivot Charts**, I visualized profitability trends across **countries, ag
 - **Most profitable gender**: 🚻 **(Male)**  
 
 📸 **Visualization**:  
-
 ![Profitability](https://github.com/user-attachments/assets/091357b7-77ef-442c-800e-fc75a005ce7f)
   
 
