@@ -68,10 +68,10 @@ Using **Pivot Charts**, I visualized profitability trends across **countries, ag
 
 ## ⚠️ Challenges Faced & Solutions  
 
-### 1️⃣ Duplicate Country Entries in Pivot Table  
+### Duplicate Country Entries in Pivot Table  
 **Issue:** When creating the Pivot Table, "United States" appeared **three times** instead of once.  
 
 **Cause:** This happened due to **inconsistent spacing** in the dataset, where extra spaces were present in some entries of the "Country" column.  
 
-**Solution:** I resolved this by applying the `TRIM()` function to the **Country Name** column, which removed any leading or trailing spaces. After refreshing the Pivot Table, "United States" appeared correctly as a single entry.  
+**Solution:** I resolved this by applying the `TRIM()` function to the **Country Name** column, which removed any leading or trailing spaces. After refreshing the Pivot Table, "United States" appeared correctly as a single entry. It was a valuable learning experience for me because it highlighted the importance of data preparation in ensuring smooth analysis. 
 
