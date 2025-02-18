@@ -24,8 +24,8 @@ This project analyzes a retail dataset containing **bike sales data**, aiming to
 ### 1️⃣ Country sales by Age_group 🌍  
 Using **Pivot Tables**, I sliced the dataset to identify **Country sales by Age_group**.  
 
-✅ **Key Insight**: 
-🔹 **(Germany shows no sales in any age group outside of Adults (35-64))** 
+✅ **Key Insight**:  
+🔹 **(Germany shows no sales in any age group outside of Adults (35-64))**   
 🔹 **(Canada has no sales in any age group other than Young Adults (25-34)**
 
 📸 **Visualization**:  
