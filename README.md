@@ -26,7 +26,8 @@ Using **Pivot Tables**, I sliced the dataset to identify **Country sales by Age_
 
 ✅ **Key Insight**:  
 🔹 **(Germany shows no sales in any age group outside of Adults (35-64))**   
-🔹 **(Canada has no sales in any age group other than Young Adults (25-34)**
+🔹 **(Canada has no sales in any age group other than Young Adults (25-34)**   
+🔹 **(The United States is our largest market, with Australia coming in a close second.)**
 
 📸 **Visualization**:  
 ![image](https://github.com/user-attachments/assets/139d5511-a34f-418e-8129-821abd55063f)
